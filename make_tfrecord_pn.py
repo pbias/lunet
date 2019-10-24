@@ -111,9 +111,6 @@ def make_tfrecord():
 
 				line_num += 1
 
-				if line_num > 10:
-					break
-
 			print("Process finished, stored {} entries in \"{}\"".format(line_num-1, dataset_output))
 
 			file_list_name.close()
