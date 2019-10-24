@@ -5,7 +5,7 @@ This repository contains the implementation of LU-Net, a CNN designed for semant
 
 
 ![alt text](https://github.com/pbias/lunet/blob/master/images/2100_pred_3d.png "3D semantic segmentation")
-<p align=center>Result of semantic segmentation using LU-Net</p>
+**_<p align=center>Result of semantic segmentation using LU-Net</p>_**
 
 For complete details about the model, please refer to our LU-Net paper: [https://arxiv.org/abs/1908.11656](https://arxiv.org/abs/1908.11656). If you use this code or this work, please consider citing:
 ```latex
