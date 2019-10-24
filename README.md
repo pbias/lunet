@@ -19,7 +19,7 @@ For complete details about the model, please refer to our LU-Net paper: [https:/
 ```
 
 ## Requirements
-The instructions have been tested on Ubunutu 16.04 with Python 3.6 and Tensorflow 1.6 with GPU support.
+The instructions have been tested on Ubuntu 16.04 with Python 3.6 and Tensorflow 1.6 with GPU support.
 
 First, clone the repository:
 ```bash
