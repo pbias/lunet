@@ -25,8 +25,6 @@ class Settings(object):
 	OUTPUT_MODEL = None
 	OUTPUT_LOGS  = None
 
-	DATASET_TRAIN  = None
-	DATASET_VAL    = None
 	TFRECORD_TRAIN = None
 	TFRECORD_VAL   = None
 	AUGMENTATION   = None
@@ -71,8 +69,6 @@ class Settings(object):
 
 		# SETTING VALUES
 		if "config" in required_args:
-			self.DATASET_TRAIN  = config["DATA"]["train"]
-			self.DATASET_VAL    = config["DATA"]["validation"]
 			self.TFRECORD_TRAIN = config["DATA"]["tfrecord_train"]
 			self.TFRECORD_VAL   = config["DATA"]["tfrecord_val"]
 			self.AUGMENTATION   = eval(config["DATA"]["augmentation"])

@@ -64,7 +64,7 @@ def make_tfrecord():
 
 					#data = data_loader.interp_data(data[:,:,0:5], mask)
 
-					p, n = data_loader.pointnetize(data, n_size=CONFIG.N_SIZE)
+					p, n = data_loader.pointnetize(data[:,:,0:5], n_size=CONFIG.N_SIZE)
 
 					groundtruth = data_loader.apply_mask(data[:,:,5], mask)
 
@@ -110,6 +110,9 @@ def make_tfrecord():
 					file_list_name.write(semantic_base + file[:-1] + ".npy\n")
 
 				line_num += 1
+
+				if line_num > 10:
+					break
 
 			print("Process finished, stored {} entries in \"{}\"".format(line_num-1, dataset_output))
 
