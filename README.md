@@ -1,5 +1,5 @@
 # LU-Net: An Efficient Network for 3D LiDAR Point Cloud Semantic Segmentation Based on End-to-End-Learned 3D Features and U-Net
-_By P. Biasutti, V. Lepetit, J-F. Aujol, M. Brédif, A. Bugeau (LaBRI, IMB, IGN, GEOSAT)_
+_by Pierre Biasutti, Vincent Lepetit, Jean-François. Aujol, Mathieu Brédif, Aurélie Bugeau (LaBRI, IMB, IGN, GEOSAT)_
 
 This repository contains the implementation of LU-Net, a CNN designed for semantic segmentation of LiDAR point clouds. The implementation is done in Python and Tensorflow.
 
