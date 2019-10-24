@@ -26,7 +26,7 @@ from settings import Settings
 CONFIG = Settings(required_args=["config"])
 
 
-semantic_base = "/home/pbiasutt/Kitti/semantic/"
+semantic_base = "/path/to/squeezeseg/dataset/"
 
 # Generates tfrecords for training
 def make_tfrecord():
