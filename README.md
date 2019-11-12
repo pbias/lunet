@@ -13,7 +13,7 @@ For complete details about the model, please refer to our LU-Net paper: [https:/
     title={LU-Net: An Efficient Network for 3D LiDAR Point Cloud Semantic Segmentation 
       Based on End-to-End-Learned 3D Features and U-Net},
     author={Biasutti, P. and Lepetit, V. and Aujol, J-F. and Brédif, M. and Bugeau, A.},
-    booktitle={ICCV Workshop},
+    booktitle={International Conference on Computer Vision Workshop},
     year={2019},
 }
 ```
