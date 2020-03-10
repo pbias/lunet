@@ -169,7 +169,7 @@ def pointnetize(groundtruth, n_size=[3, 3]):
 
 				mask_filled = n[:,0] != 0
 
-				n[mask_filled, 0:3] = n[mask_filled, 0:3]# - p[0:3] # Defined points in local coordinates
+				n[mask_filled, 0:3] = n[mask_filled, 0:3] - p[0:3] # Defined points in local coordinates
 
 				n_output[y,x,:,:] = n
 				p_output[y,x,:,:] = p
