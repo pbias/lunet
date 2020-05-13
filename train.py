@@ -111,7 +111,7 @@ def u_net(points, neighbors, train_logical):
 			x = conv_layer(x, (1, 1), 128, train_logical, 'pn_conv_3')
 
 			# x = maxpool_layer(x, (1, 1), (1, CONFIG.N_LEN + 1), 'pn_maxpool_1')
-			x = maxpool_layer(x, (1, 1), (1, CONFIG.N_LEN), 'pn_maxpool_1')
+			x = maxpool_layer(x, (1, CONFIG.N_LEN), (1, CONFIG.N_LEN), 'pn_maxpool_1')
 
 			with tf.variable_scope('pt_concat'):
 				x = tf.concat([x, points[...,0:4]], axis=3, name='pn_concat')
